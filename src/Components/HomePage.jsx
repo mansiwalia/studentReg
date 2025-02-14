@@ -91,7 +91,7 @@ const HomePage = ({ onSelectRole }) => {
         }}
       >
         <p style={{ margin: '10px 0', fontSize: '1rem', color: '#bdc3c7' }}>
-          Address: The Cubic Class, Main Market, XYZ Street, Haridwar
+          Address: Near PNB Bank , Jagjeetpur , LaksarRoad , Haridwar
         </p>
         <p style={{ margin: '5px 0', fontSize: '1rem', color: '#bdc3c7' }}>
           Instagram: <a href="https://www.instagram.com/tcc_tpc_" style={{ color: '#4fc3f7', textDecoration: 'none' }}>tcc_tpc_</a>
