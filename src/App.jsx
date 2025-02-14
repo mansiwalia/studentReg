@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import DisplayData from './components/DisplayData';
-import HomePage from './components/HomePage';
-import StudentForm from './components/StudentForm';
-import TeacherLogin from './components/TeacherLogin';
+
+import DisplayData from './Components/DisplayData';
+import HomePage from './Components/HomePage';
+import StudentForm from './Components/StudentForm';
+import TeacherLogin from './Components/TeacherLogin';
+
 
 function App() {
   const [role, setRole] = useState(null); // To track the current role (student/teacher)
@@ -77,6 +79,8 @@ function App() {
           onLogout={handleLogout} // Pass the logout handler
         />
       )}
+   
+
     </div>
   );
 }
